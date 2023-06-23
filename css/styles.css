@@ -882,7 +882,7 @@ display: flex;
     outline: transparent;
     resize: none;
     padding: 8px 16px;
-    color: var(--modal-overlay);
+    color: rgba(46, 47, 66, 0.4);
     font-size: 12px;
     padding-top: 8px;
     line-height: 1.17;
