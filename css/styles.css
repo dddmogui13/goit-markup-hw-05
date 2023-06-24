@@ -832,11 +832,15 @@ display: flex;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-comment {
+    margin-bottom: 16px;
+}
+
 .modal-input:focus {
     border-color: var(--primary-brand);
 }
 
-.modal-input:focus+.modal-icon {
+.modal-input:focus + .modal-icon {
     fill: var(--primary-brand);
 }
 
@@ -844,7 +848,7 @@ display: flex;
     border-color: var(--primary-brand);
 }
 
-.modal-input:hover+.modal-icon {
+.modal-input:hover + .modal-icon {
     fill: var(--primary-brand);
 }
 
@@ -866,13 +870,11 @@ display: flex;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-wrap {
+.input-wrapper {
     position: relative;
 }
 
-.modal-comment {
-    margin-bottom: 16px;
-}
+
 
 .modal-textarea {
     width: 100%;
@@ -887,17 +889,15 @@ display: flex;
     padding-top: 8px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid rgba(46, 47, 66, 0.4);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
     border-color: var(--primary-brand);
 }
 
-.modal-textarea:hover {
-    border-color: var(--primary-brand);
-}
+
 
 .modal-textarea::placeholder {
     font-size: 12px;
