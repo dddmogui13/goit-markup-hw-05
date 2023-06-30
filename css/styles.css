@@ -65,7 +65,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0;
 }
 
 .logo-span {
@@ -90,9 +89,11 @@ body {
 
 .container-head{
     display: flex;
+    align-items: center;
 }
 
 .header-nav {
+    display:block;
     color: var(--dark);
     font-weight: 500;
     font-size: 16px;
@@ -139,7 +140,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
-    padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -330,7 +330,7 @@ text-transform: uppercase;
 
 .footer-icons{
     box-sizing: border-box;
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 .footer-con-icon{
